@@ -1,0 +1,556 @@
+*, *::before , *::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html{
+	height: 100%;
+	margin: 0;
+}
+
+.bg {
+    background-image: url("../img/back.jpg");
+    height: 100%;
+	width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+	overflow: hidden;
+}
+
+
+body img{
+	width: 100%;
+	height: 100%;
+}
+
+.small2{
+	width: 5px;
+	position: absolute;
+	left: 400px; 
+	top: 210px;
+	animation-name: smallik;
+	animation: smallik 7s infinite;
+
+}
+
+.smaller2{
+	width: 7px;
+	position: absolute;
+	left: 400px; 
+	top: 210px;
+	animation-name: smallik;
+	animation: smallik 6s infinite;
+}
+
+.smallik2{
+	width: 10px;
+	position: absolute;
+	left: 400px; 
+	top: 210px;
+	animation-name: smallik;
+	animation: smallik 5s infinite;
+}
+
+@keyframes smallik{
+	100%{
+		transform: scale(1);
+		top: -30px;
+	}
+}
+
+.small3{
+	width: 2px;
+	position: absolute;
+	left: 810px;
+	top: 390px;
+	animation-name: smallik;
+	animation: smallik 7s infinite;
+
+}
+
+.smaller3{
+	width: 5px;
+	position: absolute;
+	left: 810px;
+	top: 390px;
+	animation-name: smallik;
+	animation: smallik 6s infinite;
+}
+
+.smallik3{
+	width: 7px;
+	position: absolute;
+	left: 810px;
+	top: 390px;
+	animation-name: smallik;
+	animation: smallik 5s infinite;
+}
+
+@keyframes smallik{
+	100%{
+		transform: scale(2);
+		top: -30px;
+	}
+}
+
+.shark_2{
+	width: 5px;
+	position: absolute;
+	top: 50px;
+	left: 80%;
+	animation-name: sharksecond;
+	animation: sharksecond 60s infinite;
+}
+
+@keyframes sharksecond{
+	100%{
+		left: -150px;
+		transform: scale(40);
+		top: 100px;
+	}
+}
+.shark{
+	width: 20px;
+	position: absolute;
+	top: 150px;
+	left: 300px;
+	animation-name: shark;
+	animation: shark 40s infinite;
+}
+
+@keyframes shark{
+	100%{
+		transform: scale(8);
+		left: calc(100% + 160px);
+		top: 350px;
+
+	}
+}
+
+.j_fish{
+	width: 60px;
+	position: absolute;
+	right: -50px;
+	top: 450px;
+	animation-name: j_fish;
+	animation: j_fish 150s infinite;
+}
+
+@keyframes j_fish{
+	100%{
+		right: 50%;
+		top: -150px;
+		transform: scale(4);
+	}
+}
+
+.j_fish2{
+	width: 200px;
+	position: absolute;
+	right: -150px;
+	top: 300px;
+	animation-name: j_f;
+	animation: j_f 100s  infinite;
+}
+@keyframes j_f{
+	100%{
+		top: 100px;
+		transform: scale(0);
+		right: 700px;
+	}
+}
+
+
+
+.goopy{
+	width: 10px;
+	position: absolute;
+	top: 250px;
+	left:900px;
+	animation-name: goopy;
+	animation: goopy 60s infinite;
+}
+
+@keyframes goopy{
+	
+	20%{
+		top: 300px;
+	}
+	100%{
+		top: calc(100% + 100px);
+		left: 50px;
+		transform: scale(16);
+		
+	}
+}
+
+.ansharj{
+	width: 200px;
+	position: absolute;
+	left: 80%;
+	top: 80%;
+	transform: rotateZ(30deg);
+}
+
+.ansharj .klorik{
+	width: 5px;
+	position: absolute;
+	animation-name: klorik;
+	animation: klorik 5s infinite;
+
+}
+@keyframes klorik{
+	100%{
+		top: -20px;
+		transform: scale(3);
+	}
+}
+
+.smallik4{
+	width: 10px;
+	position: absolute;
+	left: 100px; 
+	top: calc(100% + 10px);
+	animation-name: smallik;
+	animation: smallik 7s infinite;
+}
+
+
+@keyframes smallik{
+	100%{
+		transform: scale(3);
+		top: -30px;
+	}
+}
+
+
+.turtle{
+	width: 10px;
+	top: 60px;
+	left: 200px;
+	position: absolute;
+	animation-name: turtle;
+	animation: turtle 100s infinite;
+}
+
+@keyframes turtle{
+	100%{
+		transform: scale(15);
+		top: 80px;
+		left: calc(100% + 200px)
+	}
+}
+
+.test{
+	width: 10px;
+	top:-10px;
+	left: 10px;
+	position: absolute;
+	animation-name: test;
+	animation: test 50s infinite;
+}
+
+@keyframes test{
+	100%{
+		transform: scale(20);
+		top: 80px;
+		left: calc(100% + 200px)
+	}
+}
+.small{
+	width: 10px;
+	position: absolute;
+	left: 50%; 
+	top: 385px;
+	animation-name: smallik;
+	animation: smallik 5s infinite;
+
+}
+
+.smaller{
+	width: 15px;
+	position: absolute;
+	left: 50%; 
+	top: 385px;
+	animation-name: smallik;
+	animation: smallik 4s infinite;
+}
+
+.smallik{
+	width: 20px;
+	position: absolute;
+	left: 50%; 
+	top: 385px;
+	animation-name: smallik;
+	animation: smallik 3s infinite;
+}
+
+
+@keyframes smallik{
+	100%{
+		transform: scale(2);
+		top: -30px;
+	}
+}
+
+.smallik5{
+	width: 10px;
+	position: absolute;
+	left: 1000px; 
+	top: calc(100% + 50px);
+	animation-name: smallik;
+	animation: smallik 7s infinite;
+}
+
+
+@keyframes smallik{
+	100%{
+		transform: scale(2.5);
+		top: -30px;
+	}
+}
+
+.smallik6{
+	width: 5px;
+	position: absolute;
+	left: 300px; 
+	top: calc(100% + 70px);
+	animation-name: smallik;
+	animation: smallik 7s infinite;
+}
+
+
+@keyframes smallik{
+	100%{
+		transform: scale(3);
+		top: -30px;
+	}
+}
+
+.smallik7{
+	width: 5px;
+	position: absolute;
+	left: 1300px; 
+	top: calc(100% + 170px);
+	animation-name: smallik;
+	animation: smallik 10s infinite;
+}
+
+
+@keyframes smallik{
+	100%{
+		transform: scale(3);
+		top: -30px;
+	}
+}
+
+.smallik8{
+	width: 5px;
+	position: absolute;
+	left: 1200px; 
+	top: 200px;
+	animation-name: smallik;
+	animation: smallik 5s infinite;
+}
+
+
+@keyframes smallik{
+	100%{
+		transform: scale(2);
+		top: -30px;
+	}
+}
+
+.smallik9{
+	width: 5px;
+	position: absolute;
+	left: 1300px; 
+	top: 500px;
+	animation-name: smallik;
+	animation: smallik 5s infinite;
+}
+
+
+@keyframes smallik{
+	100%{
+		transform: scale(3);
+		top: -30px;
+	}
+}
+
+.smallik10{
+	width: 3px;
+	position: absolute;
+	left: 1230px; 
+	top: 500px;
+	animation-name: smallik;
+	animation: smallik 5s infinite;
+}
+
+
+@keyframes smallik{
+	100%{
+		transform: scale(3);
+		top: -30px;
+	}
+}
+
+.smallik11{
+	width: 6px;
+	position: absolute;
+	left: 1230px; 
+	top: 500px;
+	animation-name: smallik;
+	animation: smallik 3s infinite;
+}
+
+
+@keyframes smallik{
+	100%{
+		transform: scale(3);
+		top: -30px;
+	}
+}
+
+.smallik12{
+	width: 8px;
+	position: absolute;
+	left: 1230px; 
+	top: 500px;
+	animation-name: smallik;
+	animation: smallik 2s infinite;
+}
+
+
+@keyframes smallik{
+	100%{
+		transform: scale(3);
+		top: -30px;
+	}
+}
+
+.gufiks{
+	width: 200px;
+	position: absolute;
+	left: 30%;
+	top: 80%;
+}
+
+
+.ship{
+	width: 300px;
+	position: absolute;
+	right: 300px;
+	top: 570px;
+	animation-name: ship;
+	animation: ship 10s infinite;
+}
+
+@keyframes ship{
+	50%{
+		right: 270px
+	}
+
+	100%{
+		right: 300px;
+	}
+
+}
+
+.fire_{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	opacity: 1;
+	
+}
+
+#blue_fire{
+	animation-name: fire_one;
+	animation: fire_one 10s infinite;
+	opacity: 0;
+}
+
+@keyframes fire_one{
+	0%{		
+		right: 450px;
+		top: 600px;
+	}
+	
+	6%{
+		opacity: 1
+	}
+
+	20%{
+		opacity: 1;
+		right: 110%;
+		top: 400px;
+	}
+
+	21%{
+		right: 450px;
+		top: 600px;
+	}
+
+	26%{
+		opacity: 1;
+	}
+
+	40%{
+		opacity: 1;
+		top: 0;
+		right: 110%;
+	}
+
+	41%{
+		right: 450px;
+		top: 600px;
+	}
+
+	46%{
+		opacity: 1;
+	}
+	60%{
+		opacity: 1;
+		top: -500px;
+		right: 50%;
+	}
+
+
+	61%{
+		right: 450px;
+		top: 600px;
+	}
+
+	66%{
+		opacity: 1;
+	}
+	80%{
+		opacity: 1;
+		top:-100;
+		right: -100px;
+	}
+	
+
+	81%{
+		right: 450px;
+		top: 600px;
+	}
+
+	86%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+		top: 400px;
+		right: -400px;
+	}
+
+	
+}
+
